@@ -8,7 +8,7 @@ module.exports = {
         imagesPath: `src/images/`,
         iconFile: `src/images/icon.png`,
         siteTitle: `Portfolio`,
-        siteUrl: `https://www.christianibarguen.com`,
+        siteUrl: `https://silly-babbage-654206.netlify.app`,
         siteName: `Christian David Ibarguen`,
         siteShortName: `CD`,
         siteDescription: `This cool App contains information about my work experience as a software developer.`,

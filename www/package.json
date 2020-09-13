@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "develop": "gatsby build",
-    "build": "gatsby develop",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
     "clean": "gatsby clean",
     "lint": "eslint .",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",

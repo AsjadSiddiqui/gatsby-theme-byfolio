@@ -45,47 +45,6 @@ export default ({ children }) => {
 
   return (
     <>
-      <div className="pgContainer">
-        <div className="pgContent">
-          <Global styles={[styles, styleColors]} />
-          {children}
-          {svgIcos()}
-        </div>
-        <div className="copy">
-          <a
-            href="https://github.com/christiandavid/gatsby-theme-byfolio"
-            rel="noopener noreferrer"
-            className="nolink"
-            target="_blank"
-          >
-            {footer === "heart" ? (
-              <>
-                <div>Made with </div>
-                <div>
-                  <svg className="icon heart">
-                    <use xlinkHref="#icon-heart"></use>
-                  </svg>
-                </div>
-                <div> using GatsbyJS</div>
-              </>
-            ) : (
-              <>
-                <div>Developed with </div>
-                <div>
-                  <svg className="icon hand">
-                    <use xlinkHref="#icon-hand"></use>
-                  </svg>
-                  <svg className="icon hand">
-                    <use xlinkHref="#icon-hand"></use>
-                  </svg>
-                </div>
-              </>
-            )}
-          </a>
-        </div>
-      </div>
-      {/* This add a line in the bottom, but let Paint Drive Animation Work */}
-      <span className="bgPageColor">.</span>
     </>
   )
 }
